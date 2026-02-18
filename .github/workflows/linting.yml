@@ -17,7 +17,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install ruff
+        pip install isort ssort ruff
     - name: Analysing the code with isort ssort ruff
       run: |
         isort . --check --diff --profile "black" -l 79
