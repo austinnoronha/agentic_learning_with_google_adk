@@ -48,8 +48,8 @@ This repo is a **hands-on learning project** for developers who want to:
 ### 1. Clone and enter the repo
 
 ```bash
-git clone <this-repo-url>
-cd google_adk_learning
+git clone https://github.com/austinnoronha/agentic_learning_with_google_adk.git
+cd agentic_learning_with_google_adk
 ```
 
 ### 2. Install dependencies
@@ -66,6 +66,8 @@ Create a `.env` in the project root if you want to override the default model or
 # Optional: default is ollama/llama3.1
 LITELLM_MODEL=ollama/llama3.1
 OLLAMA_API_BASE=http://localhost:11434
+
+# To use this this start ollama eith CMD : ollama serve
 ```
 
 ### 4. Run the agent

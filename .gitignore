@@ -33,15 +33,20 @@ build/
 
 # Environment variables
 .env
+.env.local
 
 # Logs
 *.log
 
 # Local development settings
 *.local
+.coverage
+.coverage.*
 
 /src/app_data/*.log
 App Run.ipynb
+coverage.xml
+coverage_html_report/
 
 # Certificates
 *.pem
