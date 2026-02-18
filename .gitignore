@@ -1,0 +1,59 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+.adk/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage/
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Local development settings
+*.local
+
+/src/app_data/*.log
+App Run.ipynb
+
+# Certificates
+*.pem
+*.ppx
+*.pfx
+*.log
+*.log.*
+*.log.*.*
+
+# celery
+celerybeat-schedule
+celerybeat-schedule-*
+celerybeat.pid
+celerybeat.log
+celerybeat.log.*
