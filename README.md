@@ -154,6 +154,10 @@ Use both to get a feel for how ADK runs your agent in different environments.
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for the full text. You’re free to use, modify, and distribute it for learning and building.
 
+## Contributions
+
+For any contributions or changes to this repo please checkout the page [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ---
 
 **Have fun building agents.**
